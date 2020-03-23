@@ -45,7 +45,7 @@ This project is hosted on Heroku. You can visit the rendered website [here](http
 
 4. I set up my API endpoints and tested the HTTP requests locally using Postman to make sure my code was working properly. To read more about the specific API endpoints click [here](API.md)
 
-![Wire frame]("public/images/wireframe.png")
+![WireFrame](public/images/wireframe.png)
 
 5. After I finished my backend, I began thinking about the design of the website and drew a quick wireframe.
 
