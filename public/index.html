@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where's the Trash?</title>
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+
+    <!-- Spin Plug-In -->
+    <script src="plugins/spin/spin.min.js" charset="utf-8"></script>
+    <script src="plugins/spin/leaflet.spin.min.js" charset="utf-8"></script>
+    <!-- <script src="../node_modules/leaflet-spin/leaflet.spin.min.js" charset="utf-8"></script> -->
+    
+    <!-- Locate Plug-In -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
+    
+    <!-- Sidebar Plug-In -->
+    <link rel="stylesheet" href="plugins/sidebar/leaflet-sidebar.min.css"/>
+    <script src="plugins/sidebar/leaflet-sidebar.min.js" ></script>
+
+    <link rel="stylesheet" href="styles.css"></link>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <script src="client.js"></script>
+</head>
+<body>
+    <div id="mapid"></div>
+
+    <div id="sidebar" class="leaflet-sidebar collapsed">
+        <!-- Nav tabs -->
+        <div class="leaflet-sidebar-tabs">
+            <ul role="tablist"> <!-- top aligned tabs -->
+                <li><a href="#home" role="tab"><i class="fa fa-bars"></i></a></li>
+                <li><a href="https://www1.nyc.gov/assets/dsny/site/home" role="button" target="_blank"><i class="fa fa-info"></i></a></li>
+                <li><a href="#help" role="tab"><i class="fa fa-question-circle"></i></a></li>
+            </ul>
+    
+            <ul role="tablist"> <!-- bottom aligned tabs -->
+                <li><a href="http://julielizardo.com/" role="button" target="_blank"><i class="fa fa-user"></i></a></li>
+            </ul>
+        </div>
+    
+        <!-- Tab panes -->
+        <div class="leaflet-sidebar-content">
+            <div class="leaflet-sidebar-pane" id="home">
+                <h1 class="leaflet-sidebar-header">
+                    Where's the Trash?
+                    <div class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></div>
+                </h1>
+                <h2>Did you know there are over <b>23,000</b> public trash bins in NYC?</h2>                
+                <!-- <h2>Have you ever finished eating snack while walking in NYC and then wonder where the nearest trash can is?</h3> -->
+                <p><b>Where's the Trash?</b> uses NYC Open Data to provide you a tool to navigate and view all of New York's Department of Sanitation [DSNY] public trash bins.Visit DSNY's page by clicking the <i class="fa fa-info"></i> to learn more about trash disposal in your area.</a> </p>
+                
+                <br>
+                <p>We can help you find the nearest public trash bin near you. Let's put a stop to littering!</i></p>
+                <p> Get started by clicking the <i class="fa fa-map-marker-alt"></i>.</p>
+                
+                <br>
+                <h3>Need help using the map?</h3>
+                <p>Click the <i class="fa fa-question-circle"></i> on the toolbar for more instructions.</p>
+
+            </div>
+    
+            <div class="leaflet-sidebar-pane" id="help">
+                <h1 class="leaflet-sidebar-header">Help<div class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></div></h1>
+                <h3>Navigation</h3>
+                <section>
+                    <h4>Pan</h4>
+                    <p>Move around the map my clicking and dragging your mouse.</p>
+                    <h4>Zoom</h4>
+                    <p>Scroll upwards to zoom out and scroll outwards to zoom out. You can also use the buttons on the top left of the map to zoom.</p>   
+                    <h4>Bins</h4>
+                    <p>Each circle on the map represents a bin. Click on a circle to view a popup of the information about the bin stored in our database.</p>                 
+                </section>
+                <h3>Find bins near you</h3>
+                <section>
+                    <p>Activate geolocation on the map by clicking <i class="fa fa-map-marker-alt"></i> on the top left box on the map. This lets you view your location and all of the bins near you. Click on the marker to view a popup with the radius in meters of your location.</p>
+                </section>
+                <h3>Views</h3>
+                <section>
+                    <h4>CityWide</h4>
+                    <p>Activate the citywide view of the map by clicking <i>Citywide</i> on the box on the top right of the map. This lets you view all of the bins across all 5 boroughs.</p>
+                    <h4>By Borough</h4>
+                    <p>Activate the borough view of the map by clicking <i>By Borough</i> and either "Brooklyn", "Bronx", "Manhattan", "Staten Island" or "Queens" on the top right box on the map. This lets you view all of the bins in the specific borough(s) of your choice.</p>
+                </section>
+        
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
