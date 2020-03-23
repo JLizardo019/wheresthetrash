@@ -43,14 +43,14 @@ This project is hosted on Heroku. You can visit the rendered website [here](http
 
 3. Next, I created a database on mongodb and linked it to my server. I designed my data schema and loaded the [DSNY Public Litter Bins GEOJSON](https://data.cityofnewyork.us/dataset/DSNY-Litter-Basket-Inventory/uhim-nea2) data into my database, removing some attributes from the original file to lighten the load of data.
 
-5. I set up my API endpoints and tested the HTTP requests locally using Postman to make sure my code was working properly. To read more about the specific API endpoints click [here](API.md)
+4. I set up my API endpoints and tested the HTTP requests locally using Postman to make sure my code was working properly. To read more about the specific API endpoints click [here](API.md)
 
 [Wire frame]("public/images/wireframe.png")
-7. After I finished my backend, I began thinking about the design of the website and drew a quick wireframe.
+5. After I finished my backend, I began thinking about the design of the website and drew a quick wireframe.
 
-8. Next, I built my front-end website using html and css. I created the foundation for the map using [Leaflet](https://leafletjs.com/) and various Leaflet plugins by linking the libraries files in the index.html. 
+6. Next, I built my front-end website using html and css. I created the foundation for the map using [Leaflet](https://leafletjs.com/) and various Leaflet plugins by linking the libraries files in the index.html. 
 
-9. I deployed the website on Heroku.
+7. I deployed the website on Heroku.
 
 <!--For more details about the creative process of this website development, visit my [blog] (https://julielizardo.com/)-->
 ## Questions

@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const express = require("express");
 const app = express();
+const port = process.env.PORT || 3000;
 
 // create connection to mongoDB
 const mongoose = require("mongoose");
@@ -175,6 +176,6 @@ app.delete("/litter/:id", async (req, res) => {
     console.log("deleting data");
   });
 
-app.listen(3000, () => {
-    console.log("Server listening at http://localhost:3000!") //need this to keep it open to request
-    });
+app.listen(port, () => {
+  console.log(`"Server listening at ${port}!`);
+});
