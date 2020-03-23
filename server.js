@@ -9,11 +9,11 @@ const mongoose = require("mongoose");
 require('dotenv').config();
 const MONGO_URL=process.env.MONGO_URL || 'mongodb://localhost:27017/test';
 // prevent deprecation warnings
-mongoose.set('useNewUrlParser', true);
+// mongoose.set('useNewUrlParser', true);
 // mongoose.set('useUnifiedTopology', true);
-mongoose.set('useFindAndModify', false);
-mongoose.set('useCreateIndex', true);
-mongoose.connect(MONGO_URL, {usedNewURLParser:true});
+// mongoose.set('useFindAndModify', false);
+// mongoose.set('useCreateIndex', true);
+mongoose.connect(MONGO_URL, {useNewURLParser:true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true});
 
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
