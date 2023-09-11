@@ -21,13 +21,13 @@ A detailed guide of the map's features is found on the website's help tab [here]
 <!-- Notes about the deployment -->
 ## Deployment
 
-This project is hosted on Heroku. You can visit the rendered website [here](https://wheresthetrash.herokuapp.com/)
+This project is hosted on Vercel. You can visit the rendered website [here](https://wheresthetrash.herokuapp.com/)
 
 ### Built with
 
 * [VS Code](https://code.visualstudio.com/)
 * [Github](https://github.com)
-* [Heroku](https://www.heroku.com/)
+* [Vercel](https://www.vercel.com/)
 * [Node.js](https://nodejs.org/en/)
 * [MongoDB](https://www.mongodb.com/cloud/atlas)
 * [Postman](https://www.postman.com/)
@@ -51,7 +51,7 @@ This project is hosted on Heroku. You can visit the rendered website [here](http
 
 6. Next, I built my front-end website using html and css. I created the foundation for the map using [Leaflet](https://leafletjs.com/) and various Leaflet plugins by linking the libraries files in the index.html. 
 
-7. I deployed the website on Heroku.
+7. I deployed the website on Vercel.
 
 <!--For more details about the creative process of this website development, visit my [blog] (https://julielizardo.com/)-->
 ## Questions
