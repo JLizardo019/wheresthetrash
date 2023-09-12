@@ -1,13 +1,13 @@
 # Where's the Trash?
 <!-- A one sentence description of the project or assignment -->
-This is full-stack web development project where I create web server with Node.js and express, store information in a database using MongoDb Atlas, and create a front-end website with an interactive map. The map visualizes the New York Department of Sanitation's [DSNY] public trash bins across the 5 boroughs. 
+An interactive map that visualizes the New York Department of Sanitation's [DSNY] public trash bins across all 5 boroughs. [Try it out] (https://wheres-the-trash.glitch.me/)
 
 ![Website](public/images/website.png)
 <!-- It is good practice to add an about or summary -->
 ## About
 This is a website that provides an interactive map for users to navigate and view all the DSNY public trash bins. Users can click and view the bins in two perspectives: Citywide and By Borough. In "Citywide" View, users can view all the data points on the map at the same time. In "By Borough", users can can click on the borough of their choice and only view points corresponding to the borough. Users can also find trash bins near them by clicking the geolocator icon on the map.
 
-A detailed guide of the map's features is found on the website's help tab [here](https://wheresthetrash.herokuapp.com/).
+A detailed guide of the map's features is found on the website's 'Help' tab [here](https://wheres-the-trash.glitch.me/)).
 
 <!-- Any knowledge or tools you will need before hand -->
 ### Prerequisites
@@ -21,7 +21,7 @@ A detailed guide of the map's features is found on the website's help tab [here]
 <!-- Notes about the deployment -->
 ## Deployment
 
-This project is hosted on Vercel. You can visit the rendered website [here](https://wheresthetrash.herokuapp.com/)
+This project is hosted on Vercel. You can visit the rendered website [here](https://wheres-the-trash.glitch.me/))
 
 ### Built with
 
