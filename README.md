@@ -1,6 +1,6 @@
 # Where's the Trash?
 <!-- A one sentence description of the project or assignment -->
-An interactive map that visualizes the New York Department of Sanitation's [DSNY] public trash bins across all 5 boroughs. [Try it out] (https://wheres-the-trash.glitch.me/)
+An interactive map that visualizes the New York Department of Sanitation's [DSNY] public trash bins across all 5 boroughs. [Try it out](https://wheres-the-trash.glitch.me/)
 
 ![Website](public/images/website.png)
 <!-- It is good practice to add an about or summary -->
