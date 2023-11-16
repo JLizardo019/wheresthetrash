@@ -1,29 +1,29 @@
 # Where's the Trash?
-<!-- A one sentence description of the project or assignment -->
 An interactive map that visualizes the New York Department of Sanitation's [DSNY] public trash bins across all 5 boroughs. [Try it out](https://wheres-the-trash.glitch.me/)
 
 ![Website](public/images/website.png)
-<!-- It is good practice to add an about or summary -->
 ## About
 This is a website that provides an interactive map for users to navigate and view all the DSNY public trash bins. Users can click and view the bins in two perspectives: Citywide and By Borough. In "Citywide" View, users can view all the data points on the map at the same time. In "By Borough", users can can click on the borough of their choice and only view points corresponding to the borough. Users can also find trash bins near them by clicking the geolocator icon on the map.
 
 A detailed guide of the map's features is found on the website's 'Help' tab [here](https://wheres-the-trash.glitch.me/)).
 
-<!-- Any knowledge or tools you will need before hand -->
-### Prerequisites
+## Prerequisites
 
 1. A text editor or Integrated Development Environment (IDE)- preferably [VS Code](https://code.visualstudio.com/) to view code on your computer if you wish to download.
 
 2. Node.js with NVM. To install on your computer, follow the instructions here [Node.js](https://github.com/itp-dwd/2020-spring/blob/master/guides/installing-nodejs.md)
 
-<!-- any installation needs should be defined -->
-<!-- Write instructions on how to start working on your project -->
-<!-- Notes about the deployment -->
-## Deployment
+## Installation
+1. Install a package manager like npm, yarn, brew. I use [npm](https://www.npmjs.com/) Note: npm is the standard package management system for Javascript based projects.
+2. Navigate to your project directory in the terminal.
+3. Run the command <code>npm install</code> to install project dependencies.
+4. Run <code>npm start</code> to run a local development server.
+5. Visit [http://localhost:3000](http://localhost:3000/) to view live site.
 
+## Deployment
 This project is hosted on Vercel. You can visit the rendered website [here](https://wheres-the-trash.glitch.me/))
 
-### Built with
+## Built with
 
 * [VS Code](https://code.visualstudio.com/)
 * [Github](https://github.com)
@@ -35,7 +35,7 @@ This project is hosted on Vercel. You can visit the rendered website [here](http
 * [Leaflet](https://leafletjs.com/)
 * [FontAwesome](https://fontawesome.com/)
 
-### Process
+## Process
 
 1. I installed npm on my computer.
 
@@ -53,12 +53,6 @@ This project is hosted on Vercel. You can visit the rendered website [here](http
 
 7. I deployed the website on Vercel.
 
-<!--For more details about the creative process of this website development, visit my [blog] (https://julielizardo.com/)-->
-## Questions
-* How can I make multiple data Schema in mongoDB and nest them into one another?
-* How do I address multiple collections in my database?
-* Can I link a js file located in node_modules in my index.html?
-
 ## Future Work
 I would like to continue working on this project to add aditonally functionality and distance analysis. I also would like to build a sister site that visualizes public recycling bin data.
 
@@ -69,7 +63,6 @@ Please reach out if you would like to fork this project or contribute to develop
 
 * [Julie Lizardo](https://www.linkedin.com/in/julie-lizardo/)  -- [Creative Engineer](https://julielizardo.com/)
 
-<!-- thank and reference all the things that made your project happen -->
 ## References
 * [DSNY Public Litter Bins GEOJSON](https://data.cityofnewyork.us/dataset/DSNY-Litter-Basket-Inventory/uhim-nea2) for the geojson file that contains all of the points of the New York Department of Sanitation's public trash bins
 * [Borough Boundaries](https://data.cityofnewyork.us/City-Government/Borough-Boundaries/tqmj-j8zm) for the geojson file that contains all the points of the 5 bouroughs of NY
